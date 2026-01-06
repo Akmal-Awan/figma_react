@@ -1,13 +1,18 @@
 
 
 import './App.css'
+import Navbar from './components/Navbar'
+import Herosection from './components/Herosection'
+import Reviews from './components/Reviews'
 
 function App() {
 
   return (
-   <>
-   <h1 className='text-amber-400 text-5xl '>LasLes<b>VPN</b></h1>
-   </>
+   <div>
+    <Navbar />
+    <Herosection />
+    <Reviews />
+   </div>
   )
 }
 
