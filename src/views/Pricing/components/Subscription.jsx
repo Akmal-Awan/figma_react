@@ -1,8 +1,6 @@
 import React from 'react'
 
 const Subscription = ({planName, features, priceTag}) => {
-
-    console.log(features)
   return (
 
             <div className='flex flex-col p-3 justify-center items-center border-2 rounded-lg border-gray-200 w-70 '>

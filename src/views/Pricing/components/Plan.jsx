@@ -1,8 +1,6 @@
 import React from 'react'
 import Subscription from './Subscription'
 
-
-
 export default function Plan(){
     const subscriptions = [
         {
